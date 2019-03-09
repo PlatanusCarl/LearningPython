@@ -9,3 +9,13 @@
 PS D:\program files\mysql-5.7.25-winx64\bin> net start mysql
 net : 无法将“net”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包
 括路径，请确保路径正确，然后再试一次。
+
+  启动成功了，原来一定要在c:\windows\system32下启动
+
+PS C:\WINDOWS\system32> net start mysql
+net : 无法将“net”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包
+括路径，请确保路径正确，然后再试一次。
+Suggestion [3,General]: 找不到命令 net，但它确实存在于当前位置。默认情况下，Windows PowerShell 不会从当前位置加载命令。如果信任此命令，请改为键入“.\net”。有关详细信息，请参阅 "get-help about_Command_Precedence"。
+PS C:\WINDOWS\system32> .\net start mysql
+MySQL 服务正在启动 ..
+MySQL 服务已经启动成功。
