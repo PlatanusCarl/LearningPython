@@ -19,3 +19,8 @@ Suggestion [3,General]: 找不到命令 net，但它确实存在于当前位置�
 PS C:\WINDOWS\system32> .\net start mysql
 MySQL 服务正在启动 ..
 MySQL 服务已经启动成功。
+
+  2019.03.10
+  今天装docker的时候出了点小问题，家庭版win10得先装doker toolbox
+  但是docker quikstart terminal启动依赖于c:/program file/git/bin/bash.exe
+  最后发现直接运行doker toolbox下的start.sh就行了
