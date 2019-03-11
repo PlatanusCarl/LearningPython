@@ -8,3 +8,4 @@ elif TempStr[-1] in ['C','c']:
     print("转换后的温度是：{:.2f}°F".format(F))
 else:
     print("Invalid Input!")
+# eval()评估函数，去掉最外侧引号
